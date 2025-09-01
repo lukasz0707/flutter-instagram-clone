@@ -1,0 +1,6 @@
+include: package:very_good_analysis/analysis_options.yaml
+analyzer:
+  errors:
+    unintended_html_in_doc_comment: ignore
+    public_member_api_docs: ignore
+    document_ignores: ignore

@@ -1,0 +1,485 @@
+{
+  "@@locale": "pl",
+  "feedAppBarTitle": "Kanał",
+  "@feedAppBarTitle": {
+    "description": "Tekst wyświetlany w nagłówku ekranu 'Kanał'"
+  },
+  "homeNavBarItemLabel": "Główna",
+  "@homeNavBarItemLabel": {
+    "description": "Etykieta elementu paska nawigacyjnego 'Główna'"
+  },
+  "searchNavBarItemLabel": "Szukaj",
+  "@searchNavBarItemLabel": {
+    "description": "Etykieta elementu paska nawigacyjnego 'Szukaj'"
+  },
+  "createMediaNavBarItemLabel": "Utwórz media",
+  "@createMediaNavBarItemLabel": {
+    "description": "Etykieta elementu paska nawigacyjnego 'Utwórz media'"
+  },
+  "reelsNavBarItemLabel": "Reels",
+  "@reelsNavBarItemLabel": {
+    "description": "Etykieta elementu paska nawigacyjnego 'Reels'"
+  },
+  "profileNavBarItemLabel": "Profil",
+  "@profileNavBarItemLabel": {
+    "description": "Etykieta elementu paska nawigacyjnego 'Profil'"
+  },
+  "likesText": "Polubienia",
+  "@likesText": {
+    "description": "Tekst wyświetlający statyczny tekst 'Polubienia'"
+  },
+  "likesCountText": "{count, plural, one{{count} polubienie} few{{count} polubienia} other{{count} polubień}}",
+  "@likesCountText": {
+    "description": "Tekst wyświetlany w stopce posta, który pokazuje liczbę polubień",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "likedByText": "Polubione przez {userName} i {count, plural, one{{count} inną osobę} few{{count} inne osoby} many{{count} innych osób} other{{count} innych osób}}",
+  "@likedByText": {
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "john.dale"
+      },
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "likeText": "Polub",
+  "unlikeText": "Cofnij polubienie",
+  "likesCountTextShort": "{count}",
+  "@likesCountTextShort": {
+    "description": "Tekst wyświetlany w stopce posta, który wyświetla skróconą liczbę polubień",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "originalAudioText": "Oryginalny dźwięk",
+  "discardEditsText": "Odrzuć zmiany",
+  "discardText": "Odrzuć",
+  "doneText": "Gotowe",
+  "draftEmpty": "Szkic pusty",
+  "errorText": "Błąd",
+  "uploadText": "Prześlij",
+  "loseAllEditsText": "Jeśli wrócisz teraz, stracisz wszystkie wprowadzone zmiany.",
+  "saveDraft": "Zapisz szkic",
+  "successfullySavedText": "Zapisano pomyślnie",
+  "tapToTypeText": "Dotknij, aby wpisać...",
+  "noPostsText": "Brak postów!",
+  "noPostFoundText": "Nie znaleziono posta!",
+  "addCommentText": "Dodaj komentarz",
+  "noChatsText": "Brak czatów!",
+  "startChatText": "Rozpocznij czat",
+  "deleteCommentText": "Usuń komentarz",
+  "commentDeleteConfirmationText": "Czy na pewno chcesz usunąć ten komentarz?",
+  "deleteMessageText": "Usuń wiadomość",
+  "messageDeleteConfirmationText": "Czy na pewno chcesz usunąć tę wiadomość?",
+  "deleteChatText": "Usuń czat",
+  "chatDeleteConfirmationText": "Czy na pewno chcesz usunąć ten czat?",
+  "deleteReelText": "Usuń rolkę",
+  "reelDeleteConfirmationText": "Czy na pewno chcesz usunąć tę rolkę?",
+  "deleteStoryText": "Usuń relację",
+  "storyDeleteConfirmationText": "Czy na pewno chcesz usunąć tę relację?",
+  "commentText": "Komentarz",
+  "commentsText": "Komentarze",
+  "noCommentsText": "Brak komentarzy",
+  "seeAllComments": "Zobacz wszystkie {count} komentarze",
+  "@seeAllComments": {
+    "description": "Tekst wyświetlany pod podpisem posta",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "yourStoryLabel": "Twoja relacja",
+  "@yourStoryLabel": {
+    "description": "Tekst wyświetlany pod pierwszą relacją w widoku listy oznaczony jako 'Twoja relacja'"
+  },
+  "postsText": "Posty",
+  "@postsText": {
+    "description": "Tekst wyświetlający statyczny tekst 'Posty'"
+  },
+  "followUser": "Obserwuj",
+  "followingUser": "Obserwujesz",
+  "followersText": "Obserwujący",
+  "@followersText": {
+    "description": "Tekst wyświetlający statyczny tekst 'Obserwujący'"
+  },
+  "followingsText": "Obserwowani",
+  "@followingsText": {
+    "description": "Tekst wyświetlający statyczny tekst 'Obserwowani'"
+  },
+  "followersCountText": "{count, plural, one{{count} obserwujący} few{{count} obserwujących} other{{count} obserwujących}}",
+  "@followersCountText": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "followingsCountText": "{count, plural, one{{count} obserwowany} few{{count} obserwowanych} other{{count} obserwowanych}}",
+  "@followingsCountText": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "postsCount": "{count, plural, one{Post} few{Posty} other{Postów}}",
+  "@postsCount": {
+    "description": "Tekst opisujący liczbę postów",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "profilePostsAppBarTitle": "Posty",
+  "@profilePostsAppBarTitle": {
+    "description": "Tekst wyświetlany w nagłówku aplikacji w widoku wszystkich postów użytkownika"
+  },
+  "followersCount": "{count, plural, one{Obserwujący} few{Obserwujący} other{Obserwujących}}",
+  "@followersCount": {
+    "description": "Tekst opisujący liczbę obserwujących",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "followingsCount": "{count, plural, one{Obserwowany} few{Obserwowani} other{Obserwowanych}}",
+  "@followingsCount": {
+    "description": "Tekst opisujący liczbę obserwowanych przez użytkownika",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "optionsText": "Opcje",
+  "viewProfileText": "Wyświetl profil",
+  "editProfileText": "Edytuj profil",
+  "editingText": "Edytowanie",
+  "@editProfileText": {
+    "description": "Tekst wyświetlany w widoku konta do edycji profilu"
+  },
+  "editPostText": "Edytuj post",
+  "@editPostText": {
+    "description": "Tekst wyświetlany w widoku edycji posta do edycji posta"
+  },
+  "shareProfileText": "Udostępnij profil",
+  "@shareProfileText": {
+    "description": "Tekst wyświetlany w widoku konta do udostępniania profilu"
+  },
+  "sharePostText": "Udostępnij",
+  "@sharePostText": {
+    "description": "Tekst etykiety wyświetlany w wyskakującym okienku posta do udostępniania posta"
+  },
+  "sharePostCaptionHintText": "Dodaj wiadomość...",
+  "sendText": "Wyślij",
+  "sendSeparatelyText": "Wyślij osobno",
+  "addStoryText": "Nowa",
+  "@addStoryText": {
+    "description": "Tekst wyświetlany w widoku konta do dodawania nowej relacji"
+  },
+  "sponsoredPostText": "Sponsorowane",
+  "@sponsoredPostText": {
+    "description": "Tekst wyświetlany na sponsorowanym poście wskazujący, że post jest sponsorowany przez autora"
+  },
+  "visitSponsoredInstagramProfile": "Odwiedź profil na Instagramie",
+  "@visitSponsoredInstagramProfile": {
+    "description": "Tekst wyświetlany na sponsorowanym poście informujący, że ta akcja przeniesie użytkownika do profilu autora na Instagramie"
+  },
+  "visitSponsoredPostAuthorProfileText": "Odwiedź profil na Instagramie",
+  "@visitSponsoredPostAuthorProfileText": {
+    "description": "Tekst wyświetlany na sponsorowanym poście informujący, że ta akcja przeniesie użytkownika do profilu autora"
+  },
+  "learnMoreAboutUserPromoText": "Dowiedz się więcej",
+  "@learnMoreAboutUserPromoText": {
+    "description": "Tekst wyświetlany w pływającej akcji promocyjnej w profilu użytkownika, gdy został przeniesiony ze sponsorowanego posta"
+  },
+  "visitUserPromoWebsiteText": "Przejdź do strony",
+  "@visitUserPromoWebsiteText": {
+    "description": "Tekst wyświetlany w pływającej akcji promocyjnej w profilu użytkownika, gdy został przeniesiony ze sponsorowanego posta"
+  },
+  "cancelFollowingText": "Przestań obserwować",
+  "@cancelFollowingText": {
+    "description": "Tekst wyświetlany w modalnym arkuszu dolnym, aby anulować obecne obserwowanie użytkownika"
+  },
+  "haveSeenAllRecentPosts": "Jesteś na bieżąco",
+  "@haveSeenAllRecentPosts": {
+    "description": "Tekst nagłówka wyświetlany w bloku separatora, gdy użytkownik zobaczył wszystkie ostatnie posty"
+  },
+  "haveSeenAllRecentPostsInPast3Days": "Widziałeś wszystkie nowe posty z ostatnich 3 dni.",
+  "@haveSeenAllRecentPostsInPast3Days": {
+    "description": "Tekst ciała wyświetlany w bloku separatora, gdy użytkownik zobaczył wszystkie ostatnie posty z ostatnich 3 dni"
+  },
+  "suggestedForYouText": "Sugerowane dla Ciebie",
+  "@suggestedForYouText": {
+    "description": "Tekst wyświetlany w sugerowanym bloku sekcji."
+  },
+  "andText": "i",
+  "othersText": "{count, plural, one{{count} inna osoba} few{{count} inne osoby} many{{count} innych osób} other{{count} innych osób}}",
+  "@othersText": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "newPostText": "Nowy post",
+  "newAvatarImageText": "Nowe zdjęcie awatara",
+  "writeCaptionText": "Napisz podpis...",
+  "logOutText": "Wyloguj",
+  "logOutConfirmationText": "Czy na pewno chcesz się wylogować?",
+  "notShowAgainText": "Nie pokazuj ponownie",
+  "blockPostAuthorText": "Zablokuj autora posta",
+  "blockAuthorText": "Zablokuj autora",
+  "blockAuthorConfirmationText": "Czy na pewno chcesz zablokować tego autora?",
+  "blockText": "Zablokuj",
+  "refreshText": "Odśwież",
+  "noReelsFoundText": "Brak rolek",
+  "publishText": "Publikuj",
+  "searchText": "Szukaj",
+  "addMessageText": "Dodaj wiadomość",
+  "messageText": "Wiadomość",
+  "editPictureText": "Edytuj zdjęcie",
+  "requiredFieldText": "To pole jest wymagane",
+  "passwordLengthErrorText": "Hasło powinno zawierać co najmniej {count} znaki",
+  "@passwordLengthErrorText": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "changeText": "Zmień",
+  "changePhotoText": "Zmień zdjęcie",
+  "fullNameEditDescription": "Pomóż innym odkryć Twoje konto, używając imienia, pod którym jesteś znany: pełnego imienia i nazwiska, pseudonimu lub nazwy firmy.\n\nMożesz zmienić swoje imię i nazwisko tylko dwa razy w ciągu 14 dni.",
+  "usernameEditDescription": "Będziesz mógł zmienić swoją nazwę użytkownika z powrotem na {username} przez kolejne 14 dni",
+  "@usernameEditDescription": {
+    "placeholders": {
+      "username": {
+        "type": "String",
+        "example": "emil"
+      }
+    }
+  },
+  "profileInfoEditConfirmationText": "Czy na pewno chcesz zmienić {changeType} na {newUsername} ?",
+  "@profileInfoEditConfirmationText": {
+    "placeholders": {
+      "newUsername": {
+        "type": "String",
+        "example": "jorge"
+      },
+      "changeType": {
+        "type": "String",
+        "example": "username"
+      }
+    }
+  },
+  "profileInfoChangePeriodText": "Możesz zmienić {changeType} tylko dwa razy w ciągu {count} dni ",
+  "@profileInfoChangePeriodText": {
+    "placeholders": {
+      "changeType": {
+        "type": "String",
+        "example": "username"
+      },
+      "count": {
+        "type": "int",
+        "example": "14"
+      }
+    }
+  },
+  "forgotPasswordText": "Zapomniałeś hasła?",
+  "recoveryPasswordText": "Odzyskiwanie hasła",
+  "orText": "Lub",
+  "signInWithText": "Kontynuuj z {provider}",
+  "@signInWithText": {
+    "placeholders": {
+      "provider": {
+        "type": "String",
+        "example": "Google"
+      }
+    }
+  },
+  "goBackConfirmationText": "Czy na pewno chcesz wrócić?",
+  "goBackText": "Wróć",
+  "furtherText": "Dalej",
+  "somethingWentWrongText": "Coś poszło nie tak!",
+  "failedToCreateStoryText": "Nie udało się utworzyć relacji",
+  "successfullyCreatedStoryText": "Relacja utworzona pomyślnie!",
+  "createText": "Utwórz",
+  "reelText": "Rolka",
+  "postText": "Post",
+  "storyText": "Relacja",
+  "removeText": "Usuń",
+  "removeFollowerText": "Usuń obserwującego",
+  "removeFollowerConfirmationText": "Czy na pewno chcesz usunąć tego obserwującego?",
+  "deletePostText": "Usuń post",
+  "deletePostConfirmationText": "Czy na pewno chcesz usunąć ten post?",
+  "cancelText": "Anuluj",
+  "captionText": "Podpis",
+  "noCameraFoundText": "Nie znaleziono kamery!",
+  "videoText": "WIDEO",
+  "photoText": "ZDJĘCIE",
+  "clearImagesText": "Wyczyść wybrane obrazy",
+  "galleryText": "GALERIA",
+  "deletingText": "USUWANIE",
+  "notFoundingCameraText": "Nie znaleziono drugiej kamery",
+  "holdButtonText": "Naciśnij i przytrzymaj, aby nagrywać",
+  "noMediaFound": "Brak mediów",
+  "acceptAllPermissionsText": "Niepowodzenie! zaakceptuj wszystkie uprawnienia dostępu.",
+  "noLastMessagesText": "Brak ostatnich wiadomości",
+  "onlineText": "online",
+  "moreText": "Więcej",
+  "noAccountText": "Nie masz konta?",
+  "alreadyHaveAccountText": "Masz już konto?",
+  "nameText": "Imię i nazwisko",
+  "usernameText": "Nazwa użytkownika",
+  "forgotPasswordEmailConfirmationText": "Weryfikacja adresu e-mail",
+  "verificationTokenSentText": "Token weryfikacyjny wysłany na adres {email}",
+  "@verificationTokenSentText": {
+    "placeholders": {
+      "email": {
+        "type": "String",
+        "example": "johndale@gmail.com"
+      }
+    }
+  },
+  "emailText": "E-mail",
+  "otpText": "Token resetowania",
+  "changePasswordText": "Zmień hasło",
+  "passwordText": "Hasło",
+  "newPasswordText": "Nowe hasło",
+  "loginText": "Zaloguj się",
+  "signUpText": "Zarejestruj się",
+  "bioText": "Bio",
+  "postUnavailableText": "Post niedostępny",
+  "postUnavailableDescriptionText": "Ten post jest niedostępny",
+  "editText": "Edytuj",
+  "editedText": "edytowano",
+  "deleteText": "Usuń",
+  "replyText": "Odpowiedz",
+  "replyToText": "Odpowiedz do {username}",
+  "@replyToText": {
+    "placeholders": {
+      "username": {
+        "type": "String",
+        "example": "emil"
+      }
+    }
+  },
+  "themeText": "Motyw",
+  "systemOption": "System",
+  "@systemOption": {
+    "description": "Opcja użycia motywu systemowego w menu wyboru motywu"
+  },
+  "lightModeOption": "Jasny",
+  "@lightModeOption": {
+    "description": "Opcja trybu jasnego w menu wyboru motywu"
+  },
+  "darkModeOption": "Ciemny",
+  "@darkModeOption": {
+    "description": "Opcja trybu ciemnego w menu wyboru motywu"
+  },
+  "languageText": "Język",
+  "plOptionText": "Polski",
+  "enOptionText": "Angielski",
+  "secondsAgo": "{seconds, plural, one{1 sekundę temu} few{{seconds} sekundy temu} many{{seconds} sekund temu} other{{seconds} sekund temu}}",
+  "@secondsAgo": {
+    "description": "Reprezentuje tekst 'sekundy temu'",
+    "placeholders": {
+      "seconds": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "minutesAgo": "{minutes, plural, one{1 minutę temu} few{{minutes} minuty temu} many{{minutes} minut temu} other{{minutes} minut temu}}",
+  "@minutesAgo": {
+    "description": "Reprezentuje tekst 'minuty temu'",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "hoursAgo": "{hours, plural, one{1 godzinę temu} few{{hours} godziny temu} many{{hours} godzin temu} other{{hours} godzin temu}}",
+  "@hoursAgo": {
+    "description": "Reprezentuje tekst 'godziny temu'",
+    "placeholders": {
+      "hours": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "daysAgo": "{days, plural, one{1 dzień temu} few{{days} dni temu} many{{days} dni temu} other{{days} dni temu}}",
+  "@daysAgo": {
+    "description": "Reprezentuje tekst 'dni temu'",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "weeksAgo": "{weeks, plural, one{1 tydzień temu} few{{weeks} tygodnie temu} many{{weeks} tygodni temu} other{{weeks} tygodni temu}}",
+  "@weeksAgo": {
+    "description": "Reprezentuje tekst 'tygodnie temu'",
+    "placeholders": {
+      "weeks": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "monthsAgo": "{months, plural, one{1 miesiąc temu} few{{months} miesiące temu} many{{months} miesięcy temu} other{{months} miesięcy temu}}",
+  "@monthsAgo": {
+    "description": "Reprezentuje tekst 'miesiące temu'",
+    "placeholders": {
+      "months": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "yearsAgo": "{years, plural, one{1 rok temu} few{{years} lata temu} many{{years} lat temu} other{{years} lat temu}}",
+  "@yearsAgo": {
+    "description": "Reprezentuje tekst 'lata temu'",
+    "placeholders": {
+      "years": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "networkError": "Wystąpił błąd sieci.\nSprawdź swoje połączenie i spróbuj ponownie.",
+  "@networkError": {
+    "description": "Tekst wyświetlany, gdy wystąpi błąd sieci."
+  },
+  "networkErrorButton": "Spróbuj ponownie",
+  "@networkErrorButton": {
+    "description": "Tekst wyświetlany na przycisku odświeżania, gdy wystąpi błąd sieci."
+  }
+}
