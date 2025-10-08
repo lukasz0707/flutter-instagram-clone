@@ -43,7 +43,7 @@ dependencies:
   sliver_tools: ^0.2.12
   supabase_authentication_client:
     path: packages/authentication_client/supabase_authentication_client
-  supabase_flutter: ^2.9.1
+  supabase_flutter: ^2.10.3
   token_storage:
     path: packages/authentication_client/token_storage
   user_repository:
