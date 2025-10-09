@@ -7,7 +7,7 @@ environment:
   sdk: ^3.8.0
 
 dependencies:
-  animations: ^2.0.11
+  animations: ^2.1.0
   api_repository:
     path: packages/api_repository
   app_ui:
