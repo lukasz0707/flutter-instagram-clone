@@ -12,7 +12,7 @@ dependencies:
     path: packages/api_repository
   app_ui:
     path: packages/app_ui
-  bloc: ^9.0.0
+  bloc: ^9.1.0
   database_client:
     path: packages/database_client
   env:
